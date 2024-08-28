@@ -639,7 +639,7 @@ textarea:focus {
 /* CERTIFICATE DESKTOP */
 
 /* MAX WIDTH 480 PX (MOBILE)*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 /* NAVBAR MOBILE */
 header ul {
     display: block;
