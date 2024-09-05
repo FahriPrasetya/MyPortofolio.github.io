@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color:rgb(15,23,42);
+    background-color: rgb(15, 23, 42);
     min-height: 3000px;
 }
 
@@ -37,7 +37,7 @@ header {
     right: 0;
     z-index: 9999;
     height: 70px;
-    background-color: rgb(16,65,62);
+    background-color: rgb(16, 65, 62);
 }
 
 header h2 {
@@ -47,8 +47,8 @@ header h2 {
     font-size: 28px;
 }
 
-header h2, header ul li a, .field-text-home h1 span, .field-text-home h3{
-    color: rgb(94,234,212);
+header h2, header ul li a, .field-text-home h1 span, .field-text-home h3 {
+    color: rgb(94, 234, 212);
 }
 
 header ul {
@@ -79,6 +79,7 @@ header ul li a:hover {
 .hamburger-menu {
     display: none;
 }
+
 /* NAVBAR DESKTOP */
 
 
@@ -90,7 +91,7 @@ header ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .field-text-home {
@@ -135,20 +136,20 @@ header ul li a:hover {
     border-radius: 50%;
 }
 
-.home .swipe-up{
-    font-family: 'Roboto',sans-serif;
+.home .swipe-up {
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     width: 110px;
     height: 40px;
-    border-radius:20px;
+    border-radius: 20px;
     position: absolute;
     bottom: 30px;
     left: 50%;
     right: 50%;
     margin-left: -50px;
-    background-color: rgb(16,65,62);
-    color: rgb(94,234,212);
-    border: 1px solid rgb(94,234,212);
+    background-color: rgb(16, 65, 62);
+    color: rgb(94, 234, 212);
+    border: 1px solid rgb(94, 234, 212);
     transition: .3s;
     text-align: center;
     line-height: 35px;
@@ -163,10 +164,11 @@ header ul li a:hover {
     border: none;
 }
 
-.home  .arrow-swipeup {
-    color: rgb(94,234,212);
+.home .arrow-swipeup {
+    color: rgb(94, 234, 212);
     margin-top: 4px;
 }
+
 /* HOME */
 
 
@@ -179,14 +181,14 @@ header ul li a:hover {
     width: 70%;
     margin: 0 auto;
     padding: 20px 80px 70px;
-    background-color: rgb(16,65,62);
-    border: 2px solid rgb(94,234,212);
+    background-color: rgb(16, 65, 62);
+    border: 2px solid rgb(94, 234, 212);
     border-radius: 30px;
 }
 
 .container-about h1 {
-    color:rgb(94,234,212) ;
-    font-family: 'Poppins',sans-serif;
+    color: rgb(94, 234, 212);
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
     text-align: center;
     margin-bottom: 40px;
@@ -197,7 +199,7 @@ header ul li a:hover {
 }
 
 .container-about p {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: justify;
     font-size: 18px;
     line-height: 24px;
@@ -206,24 +208,26 @@ header ul li a:hover {
 .container-about p:nth-child(2) {
     margin-bottom: 30px;
 }
+
 /* ABOUT DESKTOP */
 
 
 /* SKILLS DESKTOP */
 .skill {
     padding: 80px 0;
-   
+
 }
+
 .skill h1 {
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
     text-align: center;
     margin-bottom: 60px;
 }
 
 .skill h1 span {
-    color: rgb(94,234,212);
-    
+    color: rgb(94, 234, 212);
+
 }
 
 .container-image-skill {
@@ -237,9 +241,9 @@ header ul li a:hover {
 
 .field-image-skill {
     position: relative;
-    background-color:rgb(16,65,62);
+    background-color: rgb(16, 65, 62);
     width: 20%;
-    border: 2px solid rgb(94,234,212);
+    border: 2px solid rgb(94, 234, 212);
     border-radius: 12px;
     height: 205px;
     display: flex;
@@ -252,16 +256,16 @@ header ul li a:hover {
     display: inline-block;
     width: 100%;
     height: 100%;
-    background-color: rgb(94,234,212);
-    color: rgb(16,65,62);
+    background-color: rgb(94, 234, 212);
+    color: rgb(16, 65, 62);
     border: none;
     border-radius: 12px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 32px;
     font-weight: 700;
     text-align: center;
     line-height: 180px;
-    transform: scale(0,1);
+    transform: scale(0, 1);
     transform-origin: bottom;
     transition: transform .5s;
 
@@ -269,25 +273,26 @@ header ul li a:hover {
 
 .field-image-skill:hover span {
     transform: scale(1);
-    
+
 }
 
 .image-skill {
     width: 120px;
 }
+
 /* SKILLS DESKTOP */
 
 
 /* PROJECT DESKTOP */
 .project {
-    padding: 80px 0 ;
+    padding: 80px 0;
 }
 
 .project h1 {
     font-size: 60px;
     text-align: center;
-    color: rgb(94,234,212);
-    font-family: 'Poppins',sans-serif;
+    color: rgb(94, 234, 212);
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 40px;
 }
 
@@ -307,41 +312,49 @@ header ul li a:hover {
 
 .field-project {
     width: 45%;
-    background-color: rgb(16,65,62);
     border-radius: 12px;
-    display: flex;
-    border: 1px solid rgb(94,234,212);
-    padding: 8px 40px 8px 16px;
+    padding: 12px 40px 12px 12px;
+    background-color: rgb(16, 65, 62);
+    border: 1px solid rgb(94, 234, 212);
     transition: transform .3s ease-in-out;
+    display: grid;
+    grid-auto-columns: 100%;
+    grid-auto-rows: max-content;
+    row-gap: 22px;
+    grid-template-areas: 
+    'main-project' 'technology-project';
 }
 
 .field-project:hover {
-    cursor: pointer;
     transform: translateY(-10px);
+}
+
+.link-to-project {
+    grid-area: main-project;
+    display: flex;
+    gap: 16px;
 }
 
 .field-project img {
     border-radius: 8px;
     width: 30%;
-    height: 130px;
-    margin-right: 16px;
+    min-height: 120px;
 }
 
 .field-text-project {
-    position: relative;
     width: 70%;
-    height: 165px;
+    margin-top: 3px;
 }
 
 .field-text-project h3 {
-    font-family: 'Poppins',sans-serif;
-    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
     line-height: 20px;
     margin-bottom: 10px;
 }
 
 .field-text-project h3 span {
-    color: rgb(94,234,212);
+    color: rgb(94, 234, 212);
 }
 
 .description-project {
@@ -349,24 +362,22 @@ header ul li a:hover {
     font-size: 16px;
     line-height: 22px;
     text-align: justify;
-    margin-bottom: 24px;
 }
 
 .technology-project {
-    position: absolute;
-    right: 0;
-    bottom: 0;
     display: flex;
+    justify-content: end;
     gap: 16px;
+    grid-area: technology-project;;
 }
 
 .technology-project a {
-    text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    background-color: rgb(16,65,62);
+    text-decoration: none;
+    background-color: rgb(16, 65, 62);
     border: 2px solid rgb(27, 137, 122);
-    color: rgb(94,234,212);
+    color: rgb(94, 234, 212);
     padding: 4px 12px;
     border-radius: 16px;
 }
@@ -374,18 +385,20 @@ header ul li a:hover {
 .technology-project a:hover {
     cursor: pointer;
 }
+
 /* PROJECT DESKTOP */
 
 /* CERTIFICATE DESKTOP */
 .certification {
     padding: 80px 0 40px;
-    
+
 }
+
 .certification h1 {
     font-size: 60px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-    color: rgb(94,234,212);
+    color: rgb(94, 234, 212);
     margin-bottom: 40px;
 }
 
@@ -487,9 +500,9 @@ header ul li a:hover {
 
 .contact h1 {
     font-size: 60px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-    color: rgb(94,234,212);
+    color: rgb(94, 234, 212);
     margin-bottom: 40px;
 }
 
@@ -526,17 +539,17 @@ header ul li a:hover {
 }
 
 .domain-contact a span {
-    color: rgb(94,234,212);
+    color: rgb(94, 234, 212);
 }
 
 
 i {
-    color: rgb(94,234,212);
+    color: rgb(94, 234, 212);
 }
 
 
 .domain-and-contact a {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 700;
 }
@@ -547,11 +560,11 @@ iframe {
 }
 
 .social-media {
-    width: 100%; 
+    width: 100%;
 }
 
-.social-media i{
-    margin-right:40px ;
+.social-media i {
+    margin-right: 40px;
 }
 
 .social-media i:nth-child(1) {
@@ -561,16 +574,16 @@ iframe {
 .form-message {
     width: 30%;
     height: 600px;
-    background-color: rgb(16,65,62);
-    border: 2px solid rgb(94,234,212);
+    background-color: rgb(16, 65, 62);
+    border: 2px solid rgb(94, 234, 212);
     border-radius: 16px;
 }
 
 .form-message h2 {
-    font-family: 'Poppins',sans-serif;
-    font-size:36px ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
     text-align: center;
-    color: rgb(94,234,212);
+    color: rgb(94, 234, 212);
     margin: 18px 0 32px;
 }
 
@@ -589,7 +602,7 @@ input {
     display: block;
     width: 75%;
     height: 50px;
-    padding-left:16px ;
+    padding-left: 16px;
     margin: 0 auto 48px;
     border-radius: 12px;
     border: none;
@@ -598,7 +611,7 @@ input {
 }
 
 input:focus {
-    border: 3px solid rgb(94,234,212);
+    border: 3px solid rgb(94, 234, 212);
     color: black;
 }
 
@@ -609,7 +622,7 @@ textarea {
     width: 75%;
     margin: 0 auto;
     padding-top: 16px;
-    padding-left:16px ;
+    padding-left: 16px;
     border-radius: 12px;
     margin-bottom: 48px;
     color: black;
@@ -617,7 +630,7 @@ textarea {
 }
 
 textarea:focus {
-    border: 3px solid rgb(94,234,212);
+    border: 3px solid rgb(94, 234, 212);
     color: black;
 }
 
@@ -625,7 +638,7 @@ textarea:focus {
     width: 40%;
     height: 40px;
     background-color: rgb(27, 137, 122);
-    border: 2px solid rgb(94,234,212);
+    border: 2px solid rgb(94, 234, 212);
     border-radius: 32px;
     font-size: 14px;
     transition: .3s;
@@ -633,256 +646,268 @@ textarea:focus {
 
 .form-message form button:hover {
     cursor: pointer;
-    background-color: rgb(16,65,62);
+    background-color: rgb(16, 65, 62);
 }
 
 /* CERTIFICATE DESKTOP */
 
 /* MAX WIDTH 480 PX (MOBILE)*/
 @media only screen and (max-width: 600px) {
-/* NAVBAR MOBILE */
-header ul {
-    display: block;
-    top: -300px;
-    right: 0;
-    width: 100%;
-    margin: 0;
-    transition: all .7s;
-}
 
-.ul-active {
-    top: 70px;
-}
+    /* NAVBAR MOBILE */
+    header ul {
+        display: block;
+        top: -300px;
+        right: 0;
+        width: 100%;
+        margin: 0;
+        transition: all .7s;
+    }
 
-header ul li {
-    display: block;
-    margin: 0px 0px;
-    padding: 8px;
-    border-bottom: 1px solid rgb(94,234,212);
-    background-color: rgb(16,65,62);
-    text-align: center;
-}
+    .ul-active {
+        top: 70px;
+    }
 
-header ul li:nth-child(1) {
-    border-top: 1px solid rgb(94,234,212);
-}
+    header ul li {
+        display: block;
+        margin: 0px 0px;
+        padding: 8px;
+        border-bottom: 1px solid rgb(94, 234, 212);
+        background-color: rgb(16, 65, 62);
+        text-align: center;
+    }
 
-header h2 {
-    left: 30px;
-}
+    header ul li:nth-child(1) {
+        border-top: 1px solid rgb(94, 234, 212);
+    }
 
-.hamburger-menu {
-    display: inline-block;
-    position: absolute;
-    right: 30px;
-    color: rgb(94,234,212);
-}
-/* NAVBAR MOBILE */
+    header h2 {
+        left: 30px;
+    }
 
+    .hamburger-menu {
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        color: rgb(94, 234, 212);
+    }
 
-/* HOME MOBILE */
-.section-home {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    top: 120px;
-    left: 0;
-    right: 0;
-}
-
-.field-text-home {
-    width: 100%;
-}
-
-.field-text-home h1 {
-    font-size: 42px;
-    margin-bottom: 60px;
-    text-align: center;
-    line-height: 40px;
-}
-
-.field-text-home h1 span {
-    font-size: 36px;
-}
-
-.field-text-home h1 br {
-    display: inline-block;
-}
-
-.field-text-home h3 {
-    font-size: 14px;
-    text-align: center;
-}
-
-.field-image-home {
-    width: 100%;
-    
-}
-
-.field-image-home img {
-    width: 270px;
-    margin-bottom: 18px;
-    margin-left: 0;
-}
-
-.home .swipe-up {
-    bottom: 50px;
-}
-/* HOME MOBILE */
+    /* NAVBAR MOBILE */
 
 
-/* ABOUT MOBILE */
-.about {
-    padding: 60px 0 0;
-}
+    /* HOME MOBILE */
+    .section-home {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        top: 120px;
+        left: 0;
+        right: 0;
+    }
 
-.container-about {
-    background:none;
-    border: none;
-    width: 87%;
-    padding: 20px ;
-    border-radius: 20px;
-}
+    .field-text-home {
+        width: 100%;
+    }
 
-.container-about h1 {
-    font-size: 42px;
-    margin-bottom: 20px;
-}
+    .field-text-home h1 {
+        font-size: 42px;
+        margin-bottom: 60px;
+        text-align: center;
+        line-height: 40px;
+    }
 
-.container-about p {
-    font-size: 15px;
-    line-height: 18px;
-}
-/* ABOUT MOBILE */
+    .field-text-home h1 span {
+        font-size: 36px;
+    }
 
+    .field-text-home h1 br {
+        display: inline-block;
+    }
 
-/* SKILLS MOBILE */
-.skill h1 {
-    margin-bottom: 20px;
-}
-.container-image-skill {
-    width: 70%;
-}
+    .field-text-home h3 {
+        font-size: 14px;
+        text-align: center;
+    }
 
-.field-image-skill {
-    width: 100%;
-    height: 175px;
-}
-/* SKILLS MOBILE */
+    .field-image-home {
+        width: 100%;
 
+    }
 
-/* PROJECT MOBILE */
-.container-project {
-    width: 100%;
-    gap: 24px;
-}
+    .field-image-home img {
+        width: 270px;
+        margin-bottom: 18px;
+        margin-left: 0;
+    }
 
-.field-project {
-    width: 90%;
-    height: 420px;
-    padding: 8px 16px 8px 16px;
-    flex-wrap: wrap;
-}
+    .home .swipe-up {
+        bottom: 50px;
+    }
 
-.field-project img {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 10px;
-}
-
-.field-text-project {
-    width: 100%;
-    height: min-content;
-}
-
-.field-text-project h3 {
-    line-height: 24px;
-    margin-bottom: 18px;
-}
-
-.technology-project {
-    position: static;
-    flex-wrap: wrap;
-    justify-content: end;
-    width: 100%;
-}
+    /* HOME MOBILE */
 
 
-/* PROJECT MOBILE */
+    /* ABOUT MOBILE */
+    .about {
+        padding: 60px 0 0;
+    }
+
+    .container-about {
+        background: none;
+        border: none;
+        width: 87%;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .container-about h1 {
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+
+    .container-about p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    /* ABOUT MOBILE */
 
 
-/* CERTIFICATE MOBILE */
-.certification h1 {
-    font-size: 42px;
-}
-.container-certificate {
-    gap: 24px 0;
-}
+    /* SKILLS MOBILE */
+    .skill h1 {
+        margin-bottom: 20px;
+    }
 
-.field-certificate {
-    width: 100%;
-}
+    .container-image-skill {
+        width: 70%;
+    }
 
-.field-overlay-certificate {
-    width: 80%;
-}
+    .field-image-skill {
+        width: 100%;
+        height: 175px;
+    }
 
-.overlay-image-certificate img {
-    height: 270px;
-}
-
-.overlay-image-certificate button {
-    width: 30%;
-}
-/* CERTIFICATE MOBILE */
+    /* SKILLS MOBILE */
 
 
-/* CONTACT MOBILE */
+    /* PROJECT MOBILE */
+    .container-project {
+        width: 100%;
+        gap: 24px;
+    }
 
-.container-contact {
-    width: 85%;
-    flex-wrap: wrap;
-}
+    .field-project {
+        width: 90%;
+        padding: 12px 16px 24px 16px;
+    }
 
-.sosmed-and-maps {
-    width: 100%;
-}
+    .field-project img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 
-.domain-and-contact {
-    flex-direction: column;
-    align-items: start;
-    gap: 16px;
-}
+    .link-to-project {
+        flex-wrap: wrap;
+    }
 
-.domain-contact {
-    flex-direction: row;
-}
+    .field-text-project {
+        width: 100%;
+        height: min-content;
+        margin-top: 0;
+    }
 
-.domain-contact a {
-    margin-right: 24px;
-}
+    .field-text-project h3 {
+        line-height: 24px;
+        margin-bottom: 18px;
+    }
 
-.domain-contact:nth-child(3) a {
-    margin-right: 16px;
-}
-
-iframe {
-    height: 350px;
-}
-
-input {
-    margin-bottom: 32px;
-}
-
-textarea {
-    margin-bottom: 32px;
-}
-.form-message {
-    width: 100%;
-    height: 550px;
-    border-radius: 20px;
-}
+    .technology-project {
+        position: static;
+        flex-wrap: wrap;
+        justify-content: end;
+        width: 100%;
+    }
 
 
-/* CONTACT MOBILE */
+    /* PROJECT MOBILE */
+
+
+    /* CERTIFICATE MOBILE */
+    .certification h1 {
+        font-size: 42px;
+    }
+
+    .container-certificate {
+        gap: 24px 0;
+    }
+
+    .field-certificate {
+        width: 100%;
+    }
+
+    .field-overlay-certificate {
+        width: 80%;
+    }
+
+    .overlay-image-certificate img {
+        height: 270px;
+    }
+
+    .overlay-image-certificate button {
+        width: 30%;
+    }
+
+    /* CERTIFICATE MOBILE */
+
+
+    /* CONTACT MOBILE */
+
+    .container-contact {
+        width: 85%;
+        flex-wrap: wrap;
+    }
+
+    .sosmed-and-maps {
+        width: 100%;
+    }
+
+    .domain-and-contact {
+        flex-direction: column;
+        align-items: start;
+        gap: 16px;
+    }
+
+    .domain-contact {
+        flex-direction: row;
+    }
+
+    .domain-contact a {
+        margin-right: 24px;
+    }
+
+    .domain-contact:nth-child(3) a {
+        margin-right: 16px;
+    }
+
+    iframe {
+        height: 350px;
+    }
+
+    input {
+        margin-bottom: 32px;
+    }
+
+    textarea {
+        margin-bottom: 32px;
+    }
+
+    .form-message {
+        width: 100%;
+        height: 550px;
+        border-radius: 20px;
+    }
+
+
+    /* CONTACT MOBILE */
 }
