@@ -143,7 +143,7 @@ header ul li a:hover {
     height: 40px;
     border-radius: 20px;
     position: absolute;
-    bottom: 30px;
+    bottom: 2%;
     left: 50%;
     right: 50%;
     margin-left: -50px;
@@ -307,11 +307,11 @@ header ul li a:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 .field-project {
-    width: 45%;
+    width: 42%;
     border-radius: 12px;
     padding: 12px 40px 12px 12px;
     background-color: rgb(16, 65, 62);

@@ -1,3 +1,7 @@
+
+
+
+
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 const body = document.body;
 
@@ -15,7 +19,7 @@ hamburgerMenu.addEventListener('click', function () {
 
 })
 
-// efek scroll
+// efek scroll smooth
 // navbar
 document.querySelectorAll('.home a').forEach(function (link) {
     link.addEventListener('click', function (e) {
@@ -27,7 +31,7 @@ document.querySelectorAll('.home a').forEach(function (link) {
 })
 // swipe up
 
-// animation show image
+// animation show image certificate
 const spanCertificate = document.querySelectorAll('.icon-eye');
 const overlayCertificate = document.querySelectorAll('.overlay-image-certificate');
 const fieldOverlayCertificate = document.querySelectorAll('.field-overlay-certificate')
@@ -50,19 +54,99 @@ buttonCloseOverlay.forEach(function (e, i) {
     });
 })
 
-for(let i = 0; i<slideAfterCertificate.length; i++) {
-    slideAfterCertificate[i].addEventListener('click',function() {
+for (let i = 0; i < slideAfterCertificate.length; i++) {
+    slideAfterCertificate[i].addEventListener('click', function () {
         overlayCertificate[i].style.transform = 'scale(0)';
-        overlayCertificate[i+1].style.transform = 'scale(1)';
+        overlayCertificate[i + 1].style.transform = 'scale(1)';
     })
 }
 
-for(let i = 0; i<slideBeforeCertificate.length; i++) {
-    slideBeforeCertificate[i].addEventListener('click',function() {
+for (let i = 0; i < slideBeforeCertificate.length; i++) {
+    slideBeforeCertificate[i].addEventListener('click', function () {
         overlayCertificate[i].style.transform = 'scale(0)';
-        overlayCertificate[i-1].style.transform = 'scale(1)';
+        overlayCertificate[i - 1].style.transform = 'scale(1)';
     })
 }
+
+
+// ANIMATION SECTION SKILL
+const fieldSkill = document.querySelectorAll('.field-image-skill');
+for (let i = 0; i < fieldSkill.length; i++) {
+    if (i % 2 === 0) {
+        // Index genap
+        fieldSkill[i].setAttribute('data-aos', 'flip-right');
+    }
+    if (i % 2 === 1) {
+        // Index ganjil
+        fieldSkill[i].setAttribute('data-aos', 'flip-left');
+    }
+    if (window.innerWidth > 768) {
+        if (i == 0) {
+            fieldSkill[i].setAttribute('data-aos-duration', '300');
+        }
+        else {
+            fieldSkill[i].setAttribute('data-aos-delay', `${i * 300}`);
+        }
+    }
+}
+
+
+
+
+// // ANIMATION SECTION PROJECT
+
+const fieldProject = document.querySelectorAll('.field-project');
+for (let i = 0; i < fieldProject.length; i++) {
+    if (window.innerWidth > 768) {
+        fieldProject[i].setAttribute('data-aos-duration', '1000');
+        if (i % 2 === 0) {
+            fieldProject[i].setAttribute('data-aos', 'fade-up-right');
+        }
+        else {
+            fieldProject[i].setAttribute('data-aos', 'fade-up-left');
+        }
+    }
+
+    else {
+        fieldProject[i].setAttribute('data-aos', 'fade-up');
+        fieldProject[i].setAttribute('data-aos-duration', '700')
+    }
+};
+
+
+// ANIMATION SECTION CONTACT
+const formMessage = document.querySelector('.form-message');
+if (window.innerWidth > 768) {
+    const fieldMap = document.querySelector('.sosmed-and-maps');
+    fieldMap.setAttribute('data-aos', 'fade-right');
+    formMessage.setAttribute('data-aos', 'fade-left');
+}
+else {
+    const domainContact = document.querySelector('.domain-and-contact');
+    const maps = document.querySelector('.location-map');
+    const socialMedia = document.querySelector('.social-media');
+
+    domainContact.setAttribute('data-aos','fade-right');
+    maps.setAttribute('data-aos','fade-left');
+    socialMedia.setAttribute('data-aos','fade-right');
+    formMessage.setAttribute('data-aos','fade-down')
+}
+
+
+
+AOS.init({
+    once: false
+})
+
+
+
+
+
+
+
+
+
+
 
 
 
