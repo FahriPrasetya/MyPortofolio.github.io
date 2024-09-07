@@ -122,14 +122,9 @@ if (window.innerWidth > 768) {
     formMessage.setAttribute('data-aos', 'fade-left');
 }
 else {
-    const domainContact = document.querySelector('.domain-and-contact');
-    const maps = document.querySelector('.location-map');
-    const socialMedia = document.querySelector('.social-media');
-
-    domainContact.setAttribute('data-aos','fade-right');
-    maps.setAttribute('data-aos','fade-left');
-    socialMedia.setAttribute('data-aos','fade-right');
-    formMessage.setAttribute('data-aos','fade-down')
+    const sosmedAndMaps = document.querySelector('.sosmed-and-maps');
+    sosmedAndMaps.setAttribute('data-aos','zoom-in-up');
+    formMessage.setAttribute('data-aos','zoom-in-down');
 }
 
 
