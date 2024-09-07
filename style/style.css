@@ -323,6 +323,7 @@ header ul li a:hover {
     row-gap: 22px;
     grid-template-areas: 
     'main-project' 'technology-project';
+    transition: transform .3s;
 }
 
 .field-project:hover {
