@@ -387,6 +387,37 @@ header ul li a:hover {
     cursor: pointer;
 }
 
+.field-alert-project {
+    position: relative;
+    width: 530px;
+    height: 150px;
+    border-radius: 16px;
+    padding-left: 32px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #31363d;
+}
+
+.message-alert-project {
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    color: darkgray;
+}
+
+.field-decision-alert {
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    display: flex;
+    gap: 8px;
+}
+
+.decision-alert-project {
+    color: #1354bd;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+}
 /* PROJECT DESKTOP */
 
 /* CERTIFICATE DESKTOP */
@@ -650,8 +681,6 @@ textarea:focus {
     background-color: rgb(16, 65, 62);
 }
 
-/* CERTIFICATE DESKTOP */
-
 /* MAX WIDTH 480 PX (MOBILE)*/
 @media only screen and (max-width: 600px) {
 
@@ -908,7 +937,5 @@ textarea:focus {
         height: 550px;
         border-radius: 20px;
     }
-
-
     /* CONTACT MOBILE */
 }
