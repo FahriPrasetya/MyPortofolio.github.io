@@ -90,11 +90,33 @@ for (let i = 0; i < fieldSkill.length; i++) {
     }
 }
 
+// ALERT SECTION PROJECT
+const linkToProject = document.querySelectorAll('.link-to-project');
+linkToProject.forEach(function (project) {
+    project.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        let atributLinkProject = project.getAttribute('href');
+
+        Swal.fire({
+            title: "Are you sure?",
+            text: "This action will bring you to project",
+            icon: "question",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, go there"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = atributLinkProject;
+            }
+        });
+    })
+})
 
 
 
 // // ANIMATION SECTION PROJECT
-
 const fieldProject = document.querySelectorAll('.field-project');
 for (let i = 0; i < fieldProject.length; i++) {
     if (window.innerWidth > 768) {
