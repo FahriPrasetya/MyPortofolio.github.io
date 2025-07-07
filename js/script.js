@@ -169,7 +169,7 @@ formContact.addEventListener('submit', function (e) {
     }
     else {
         Swal.fire({
-            title: "Thank you! your message has been sent",
+            title: "Maaf, Bagian Ini Belum Berfungsi. Silahkan klik logo sosial media ( whatsapp, linkedin, email ) untuk menghubungi",
             color: 'black'
         });
         inputName.value = '';
